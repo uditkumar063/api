@@ -10,9 +10,16 @@
   },
   "coin":{
     "fieldconfig":{
-      
+      [
+      {
+        "type":"",
+        "name":"",
+        "placeholder":"",
+      }
+      ]
     },
     "appsetting":{
+      
     }
   }
 }
