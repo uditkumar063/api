@@ -1,11 +1,13 @@
 {
-  "posts": [
-    {
+  "dashboard":{
       "id": 1,
       "title": "hello"
-    }
-  ],
-  "profile": {
+    },
+  "pulse": {
     "name": "typicode"
+  },
+  "console":{
+  },
+  "coin":{
   }
 }
