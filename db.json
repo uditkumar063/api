@@ -9,15 +9,13 @@
   "console":{
   },
   "coin":{
-    "fieldconfig":{
-      [
+    "fieldconfig": [
       {
         "type":"",
         "name":"",
         "placeholder":""
       }
-      ]
-    },
+    ],
     "appsetting":{
       
     }
