@@ -9,5 +9,10 @@
   "console":{
   },
   "coin":{
+    "fieldconfig":{
+      
+    },
+    "appsetting":{
+    }
   }
 }
