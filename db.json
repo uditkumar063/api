@@ -51,10 +51,16 @@
         "name":"MF",
         "nameid":"INV000MF",
         "displayname":"Mutual Fund"
+      },
+      {
+       "id":1000007,
+        "name":"TERMPLAN",
+        "nameid":"INV000TRM",
+        "displayname":"Term Plan"
       }
     ],
     "fieldconfig": {
-        "INV00NPS":[
+        "INV000TRM":[
         {
           "type":"hidden",
           "name":"id",
@@ -104,6 +110,20 @@
           "placeholder":"Linked Bank Account",
           "comment":"value and id should come while loading data,make name unique while loading data in loop"
         },
+        {
+          "type":"text",
+          "name":"linkedMobileNumber",
+          "label":"Linked Mobile Number",
+          "placeholder":"Linked Mobile Number",
+          "comment":"value and id should come while loading data,make name unique while loading data in loop"
+        },
+        {
+          "type":"text",
+          "name":"linkedEmail",
+          "label":"Linked Email",
+          "placeholder":"Linked Email",
+          "comment":"value and id should come while loading data,make name unique while loading data in loop"
+        }
       ]
     },
     "appsetting":{
