@@ -54,11 +54,16 @@
       }
     ],
     "fieldconfig": [
-      {
-        "type":"",
-        "name":"",
-        "placeholder":""
-      }
+        "INV00NPS":[
+        {
+          "type":"date",
+          "name":"processdate",
+          "label":"Process Date",
+          "placeholder":"Process Date"
+        }
+  
+  /**value and id should come while loading data**/
+      ]
     ],
     "appsetting":{
       
