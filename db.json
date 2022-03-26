@@ -53,18 +53,59 @@
         "displayname":"Mutual Fund"
       }
     ],
-    "fieldconfig": [
+    "fieldconfig": {
         "INV00NPS":[
         {
+          "type":"hidden",
+          "name":"id",
+          "label":"Id",
+          "placeholder":"Id",
+          "comment":"value and id should come while loading data,make name unique while loading data in loop"
+        },
+        {
           "type":"date",
-          "name":"processdate",
+          "name":"processDate",
           "label":"Process Date",
-          "placeholder":"Process Date"
-        }
-  
-  /**value and id should come while loading data**/
+          "placeholder":"Process Date",
+          "comment":"value and id should come while loading data,make name unique while loading data in loop"
+        },
+        {
+          "type":"text",
+          "name":"planId",
+          "label":"Plan Id",
+          "placeholder":"Plan Id",
+          "comment":"value and id should come while loading data,make name unique while loading data in loop"
+        },
+        {
+          "type":"text",
+          "name":"planName",
+          "label":"Plan Name",
+          "placeholder":"Plan Name",
+          "comment":"value and id should come while loading data,make name unique while loading data in loop"
+        },
+        {
+          "type":"text",
+          "name":"planNumber",
+          "label":"Plan Number",
+          "placeholder":"Plan Number",
+          "comment":"value and id should come while loading data,make name unique while loading data in loop"
+        },
+        {
+          "type":"text",
+          "name":"linkedBankName",
+          "label":"Linked Bank Name",
+          "placeholder":"Linked Bank Name",
+          "comment":"value and id should come while loading data,make name unique while loading data in loop"
+        },
+        {
+          "type":"text",
+          "name":"linkedBankAccount",
+          "label":"Linked Bank Account",
+          "placeholder":"Linked Bank Account",
+          "comment":"value and id should come while loading data,make name unique while loading data in loop"
+        },
       ]
-    ],
+    },
     "appsetting":{
       
     }
