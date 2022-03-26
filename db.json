@@ -9,6 +9,50 @@
   "console":{
   },
   "coin":{
+    "invtype":[
+      {
+      "id":1000000,
+      "name":"NPS",
+      "nameid":"INV00NPS",
+       "displayname":"National Pension System"
+      },
+      {
+      "id":1000001,
+       "name":"EPF",
+        "nameid":"INV00EPF",
+        "displayname":"Employee Provident Fund"
+      },
+      {
+       "id":1000002,
+        "name":"PPF",
+        "nameid":"INV00PPF",
+        "displayname":"Public Provident Fund"
+      },
+      {
+        "id":1000003,
+        "name":"FIXED",
+        "nameid":"INV00FXD",
+        "displayname":"Fixed Deposit"
+      },
+      {
+        "id":1000004,
+        "name":"BANK",
+        "nameid":"INV00BNK",
+        "displayname":"Bank Account Details"
+      },
+      {
+       "id":1000005,
+        "name":"STOCK",
+        "nameid":"INV00STK",
+        "displayname":"Security Market"
+      },
+      {
+       "id":1000006,
+        "name":"MF",
+        "nameid":"INV000MF",
+        "displayname":"Mutual Fund"
+      }
+    ],
     "fieldconfig": [
       {
         "type":"",
