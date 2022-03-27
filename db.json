@@ -7,6 +7,85 @@
     "name": "typicode"
   },
   "console":{
+    "fieldconfig": {
+    "pageSetup":{
+      "fields":[
+      {
+        "type": "hidden",
+        "name": "id",
+        "label": "Id",
+        "placeholder": "Id",
+        "comment": "value and id should come while loading data,make name unique while loading data in loop"
+      },
+      {
+        "type": "date",
+        "name": "processDate",
+        "label": "Process Date",
+        "placeholder": "Process Date",
+        "comment": "value and id should come while loading data,make name unique while loading data in loop"
+      },
+      {
+        "type": "text",
+        "name": "fieldName",
+        "label": "Field Name",
+        "placeholder": "Field Name",
+        "comment": "value and id should come while loading data,make name unique while loading data in loop"
+      },
+      {
+        "type": "text",
+        "name": "fieldType",
+        "label": "Field Type",
+        "placeholder": "Field Type",
+        "comment": "value and id should come while loading data,make name unique while loading data in loop"
+      },
+      {
+        "type": "text",
+        "name": "fieldLabel",
+        "label": "Field Label",
+        "placeholder": "Field Label",
+        "comment": "value and id should come while loading data,make name unique while loading data in loop"
+      },
+      {
+        "type": "text",
+        "name": "fieldPlaceHolder",
+        "label": "Field Placeholder",
+        "placeholder": "Field Placeholder",
+        "comment": "value and id should come while loading data,make name unique while loading data in loop"
+      },
+      {
+        "type": "text",
+        "name": "fieldLength",
+        "label": "fieldLength",
+        "placeholder": "fieldLength",
+        "comment": "value and id should come while loading data,make name unique while loading data in loop"
+      },
+      {
+        "type": "text",
+        "name": "fieldDefaultValue",
+        "label": "Field Default Value",
+        "placeholder": "Field Default Value",
+        "comment": "value and id should come while loading data,make name unique while loading data in loop"
+      },
+      {
+        "type": "text",
+        "name": "isFieldRequired",
+        "label": "Is Field Required",
+        "placeholder": "Is Field Required",
+        "comment": "value and id should come while loading data,make name unique while loading data in loop"
+      }
+    ],
+    "validations":[
+      "fieldName":[
+        "minLength":1,
+        "maxLength":20
+      ],
+      "fieldType":[
+         "minLength":1,
+         "valueEnum":["text","date","autocomplete","drawer","button","buttonGroup","checkbox","radiobutton","rating","select","slider","switch","transferList","toggleButton"]
+      ]
+    ]
+    }
+  },
   },
   "coin":{
     "invtype":[
