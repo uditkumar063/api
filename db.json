@@ -121,6 +121,21 @@
               "error":"Field type is not valid"
           
             }
+          },
+          {
+            "name":"fieldLabel",
+            "validation":{
+              "length":{
+                 "minLength": 1,
+                 "maxLength": 20,
+                  "error":"Field Label length shoud be in between 1 to 20"
+              },
+              "regex":{
+                "pattern":"",
+                 "error":"Field Label should not have special character"
+              }
+             
+            }
           }
         ]
       }
