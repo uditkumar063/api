@@ -71,76 +71,74 @@
             "name": "isRequiredField",
             "label": "Is Required Field ",
             "placeholder": "Is Field Required",
-            "subLabel1":"Yes",
-            "subLabel2":"No",
-            "subLabel1Value":"Y",
-            "subLabel2Value":"N",
-            "defaultValue":"Y",
+            "subLabel1": "Yes",
+            "subLabel2": "No",
+            "subLabel1Value": "Y",
+            "subLabel2Value": "N",
+            "defaultValue": "Y",
             "comment": "value and id should come while loading data,make name unique while loading data in loop"
           }
         ],
-        "validations":[
+        "validations": [
           {
-            "name":"fieldName",
-            "validation":[
-              {"length":{
-                 "minLength": 1,
-                 "maxLength": 20,
-                  "error":"Field Name length shoud be in between 1 to 20"
-              }
+            "name": "fieldName",
+            "validation": [
+              {
+                "type": "length",
+                "minLength": 1,
+                "maxLength": 20,
+                "error": "Field Name length shoud be in between 1 to 20"
               },
-              {"regex":{
-                "pattern":"",
-                 "error":"Field Name should not have special character"
-              }
+              {
+                "type": "regex",
+                "pattern": "",
+                "error": "Field Name should not have special character"
               }
             ]
           },
           {
-            "name":"fieldType",
-            "validation":[
-             {"length":{
-               "minLength": 1,
-                "error":"Field type should not be empty"
-             }
-             },
+            "name": "fieldType",
+            "validation": [
               {
-              "valueEnum": [
-              "text",
-              "date",
-              "autocomplete",
-              "drawer",
-              "button",
-              "buttonGroup",
-              "checkbox",
-              "radiobutton",
-              "rating",
-              "select",
-              "slider",
-              "switch",
-              "transferList",
-              "toggleButton"
-            ],
-              "error":"Field type is not valid"
-              }
-            ]
-             
-          },
-          {
-            "name":"fieldLabel",
-            "validation":[
-              {
-                "length":{
-                 "minLength": 1,
-                 "maxLength": 20,
-                  "error":"Field Label length shoud be in between 1 to 20"
-              }
+                "type": "length",
+                "minLength": 1,
+                "error": "Field type should not be empty"
               },
               {
-                "regex":{
-                "pattern":"",
-                 "error":"Field Label should not have special character"
+                "type": "valueEnum",
+                "values": [
+                  "text",
+                  "date",
+                  "autocomplete",
+                  "drawer",
+                  "button",
+                  "buttonGroup",
+                  "checkbox",
+                  "radiobutton",
+                  "rating",
+                  "select",
+                  "slider",
+                  "switch",
+                  "transferList",
+                  "toggleButton"
+                ],
+                "error": "Field type is not valid"
               }
+            ]
+          },
+          {
+            "name": "fieldLabel",
+            "validation": [
+              {
+                "type": "length",
+                "minLength": 1,
+                "maxLength": 20,
+                "error": "Field Label length shoud be in between 1 to 20"
+              },
+              {
+                "type": "regex",
+                "pattern": "",
+                "error": "Field Label should not have special character"
               }
             ]
           }
