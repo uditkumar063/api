@@ -79,12 +79,14 @@
             "comment": "value and id should come while loading data,make name unique while loading data in loop"
           }
         ],
-        "validations": {
-          "fieldName": {
+        "validations":[
+          {
+            "name":"fieldName",
             "minLength": 1,
             "maxLength": 20
           },
-          "fieldType": {
+          {
+            "name":"fieldType",
             "minLength": 1,
             "valueEnum": [
               "text",
@@ -103,7 +105,7 @@
               "toggleButton"
             ]
           }
-        }
+        ]
       }
     }
   },
