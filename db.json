@@ -82,13 +82,28 @@
         "validations":[
           {
             "name":"fieldName",
-            "minLength": 1,
-            "maxLength": 20
+            "validation":{
+              "length":{
+                 "minLength": 1,
+                 "maxLength": 20
+                  "error":"Field Name length shoud be in between 1 to 20"
+              },
+              "regex":{
+                "pattern":"",
+                 "error":"Field Name should not have special character"
+              }
+             
+            }
           },
           {
             "name":"fieldType",
-            "minLength": 1,
-            "valueEnum": [
+            "validation":{
+             "length":{
+               "minLength": 1,
+                "error":"Field type should not be empty"
+             },
+              {
+              "valueEnum": [
               "text",
               "date",
               "autocomplete",
@@ -104,6 +119,8 @@
               "transferList",
               "toggleButton"
             ]
+          }
+            }
           }
         ]
       }
