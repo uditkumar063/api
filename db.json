@@ -85,7 +85,7 @@
             "validation":{
               "length":{
                  "minLength": 1,
-                 "maxLength": 20
+                 "maxLength": 20,
                   "error":"Field Name length shoud be in between 1 to 20"
               },
               "regex":{
@@ -102,7 +102,6 @@
                "minLength": 1,
                 "error":"Field type should not be empty"
              },
-              {
               "valueEnum": [
               "text",
               "date",
@@ -118,8 +117,9 @@
               "switch",
               "transferList",
               "toggleButton"
-            ]
-          }
+            ],
+              "error":"Field type is not valid"
+          
             }
           }
         ]
