@@ -82,26 +82,29 @@
         "validations":[
           {
             "name":"fieldName",
-            "validation":{
-              "length":{
+            "validation":[
+              {"length":{
                  "minLength": 1,
                  "maxLength": 20,
                   "error":"Field Name length shoud be in between 1 to 20"
+              }
               },
-              "regex":{
+              {"regex":{
                 "pattern":"",
                  "error":"Field Name should not have special character"
               }
-             
-            }
+              }
+            ]
           },
           {
             "name":"fieldType",
-            "validation":{
-             "length":{
+            "validation":[
+             {"length":{
                "minLength": 1,
                 "error":"Field type should not be empty"
+             }
              },
+              {
               "valueEnum": [
               "text",
               "date",
@@ -119,23 +122,27 @@
               "toggleButton"
             ],
               "error":"Field type is not valid"
-          
-            }
+              }
+            ]
+             
           },
           {
             "name":"fieldLabel",
-            "validation":{
-              "length":{
+            "validation":[
+              {
+                "length":{
                  "minLength": 1,
                  "maxLength": 20,
                   "error":"Field Label length shoud be in between 1 to 20"
+              }
               },
-              "regex":{
+              {
+                "regex":{
                 "pattern":"",
                  "error":"Field Label should not have special character"
               }
-             
-            }
+              }
+            ]
           }
         ]
       }
