@@ -71,6 +71,11 @@
             "name": "isRequiredField",
             "label": "Is Required Field ",
             "placeholder": "Is Field Required",
+            "subLabel1":"Yes",
+            "subLabel2":"No",
+            "subLabel1Value":"Y",
+            "subLabel2Value":"N",
+            "defaultValue":"Y"
             "comment": "value and id should come while loading data,make name unique while loading data in loop"
           }
         ],
