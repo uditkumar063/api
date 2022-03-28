@@ -111,6 +111,28 @@
             ]
           },
           {
+            "name": "layoutName",
+            "validation": [
+              {
+                "type": "length",
+                "minLength": 1,
+                "maxLength": 20,
+                "error": "Layout Name length shoud be in between 1 to 20"
+              }
+            ]
+          },
+          {
+            "name": "pageName",
+            "validation": [
+              {
+                "type": "length",
+                "minLength": 1,
+                "maxLength": 20,
+                "error": "Page Name length shoud be in between 1 to 20"
+              }
+            ]
+          },
+          {
             "name": "fieldType",
             "validation": [
               {
