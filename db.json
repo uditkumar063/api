@@ -178,7 +178,39 @@
               }
             ]
           }
-        ]
+        ],
+        "validationFieldGroup": {
+          "condtion": "onValidationsClick",
+          "fields": [
+            {
+              "type": "text",
+              "name": "fieldName",
+              "label": "Field Name",
+              "placeholder": "Field Name",
+              "defaultValue": "",
+              "condition": "",
+              "comment": "value and id should come while loading data,make name unique while loading data in loop"
+            },
+            {
+              "type": "text",
+              "name": "errorType",
+              "label": "Error Type",
+              "placeholder": "Error Type",
+              "defaultValue": "",
+              "condition": "",
+              "comment": "value and id should come while loading data,make name unique while loading data in loop"
+            },
+            {
+              "type": "text",
+              "name": "error",
+              "label": "Error Message",
+              "placeholder": "Error Message",
+              "defaultValue": "",
+              "condition": "",
+              "comment": "value and id should come while loading data,make name unique while loading data in loop"
+            }
+          ]
+        }
       }
     }
   },
